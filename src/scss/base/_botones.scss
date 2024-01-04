@@ -1,0 +1,7 @@
+.boton-amarillo-block{
+    @include boton($bgColor : $amarillo, $display : block);
+}
+
+.boton-amarillo-inline{
+    @include boton($bgColor : $amarillo, $display : inline-block);
+}
