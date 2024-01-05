@@ -5,3 +5,11 @@
 .boton-amarillo-inline{
     @include boton($bgColor : $amarillo, $display : inline-block);
 }
+
+.boton-verde-block{
+    @include boton($bgColor : $verde, $display : block);
+}
+
+.boton-verde-inline-block{
+    @include boton($bgColor : $verde, $display : inline-block);
+}
