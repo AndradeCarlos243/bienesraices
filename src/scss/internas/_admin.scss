@@ -1,0 +1,13 @@
+.alerta{
+    &.error{
+        color: $blanco;
+        text-align: start;
+
+        .mensaje_error{
+            padding: .5rem;
+            background-color: $ladrillo;
+            border-radius: 1rem;
+            margin: 1rem 0;
+        }
+    }
+}
