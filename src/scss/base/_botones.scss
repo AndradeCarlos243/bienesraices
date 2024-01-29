@@ -13,3 +13,11 @@
 .boton-verde-inline-block{
     @include boton($bgColor : $verde, $display : inline-block);
 }
+
+.boton-ladrillo-block{
+    @include boton($bgColor : $ladrillo, $display : block);
+}
+
+.boton-ladrillo-inline-block{
+    @include boton($bgColor : $ladrillo, $display : inline-block);
+}
